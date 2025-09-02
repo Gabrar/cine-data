@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cine-data/static/css/main.2dc08449.css",
+    "main.js": "/cine-data/static/js/main.2e0dad2d.js",
+    "index.html": "/cine-data/index.html",
+    "main.2dc08449.css.map": "/cine-data/static/css/main.2dc08449.css.map",
+    "main.2e0dad2d.js.map": "/cine-data/static/js/main.2e0dad2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc08449.css",
+    "static/js/main.2e0dad2d.js"
+  ]
+}
