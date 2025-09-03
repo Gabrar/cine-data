@@ -9,7 +9,7 @@ function Search() {
     const buscarFilme = async () => {
 
         const apiKey = "6e45b973"
-        const url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${filme}`
+        const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${filme}`
 
         const resposta = await fetch(url)
         const json = await resposta.json()
