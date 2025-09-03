@@ -1,0 +1,40 @@
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.search_container input {
+    text-align: center;
+    border-style: none; border-radius: 20px;
+    width: 40em;
+    padding: 1em;
+}
+
+.search_container input:hover::placeholder {
+    color: #203e54;
+    transition: .5s;
+}
+
+
+.btn {
+    width: 5em;
+    cursor: pointer;
+    padding: 1em;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.btn:hover {
+    color: #203e54;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

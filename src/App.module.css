@@ -1,0 +1,12 @@
+.App footer {
+    position: relative;
+    top: 9em;
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    to {      
+        opacity: 1;
+    }
+}
