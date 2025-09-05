@@ -7,7 +7,7 @@ function Search() {
     const [dados, setDados] = useState(null)
 
     const buscarFilme = async () => {
-
+        
         const apiKey = process.env.REACT_APP_OMDB_API_KEY
         const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${filme}`
 
@@ -20,7 +20,11 @@ function Search() {
         <div>
             <div className={styles.search_container}>
                 <div>
-                    <input type="text" placeholder='Digite o filme que deseja' value={filme} onChange={(e) => setFilme(e.target.value)} />
+                    <input type="text" placeholder='Digite o filme que deseja' value={filme} onChange={(e) => setFilme(e.target.value)} onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                            buscarFilme()
+                        }
+                    }}/>
                 </div>
                 <div>
                     <button onClick={buscarFilme} className={styles.btn}>Buscar</button>
