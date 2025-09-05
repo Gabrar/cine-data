@@ -35,9 +35,9 @@ Type a title in the search bar and you’ll be redirected to a page showing all 
 
 ## 📂 Project Structure
 - `src/components` → Reusable components
-- `src/pages` → React Router pages (Home, MovieData, etc.)
-- `src/assets` → Images and icons
-- `src/services` → API functions for OMDb
+- `src/components/pages` → React Router pages (Home)
+- `src/components/layout` → (Footer, NavBar, Search, Buttons)
+- `src/imgs` → Images and icons
 
 ## 🌟 Features
 - Search for movies and series by title
@@ -47,6 +47,3 @@ Type a title in the search bar and you’ll be redirected to a page showing all 
 ## 📌 Notes
 - The project consumes the free **OMDb API**. For advanced features, an API key might be required.
 - This project is a great way to practice API consumption, React routing, and responsive styling.
-
-## 📝 License
-This project is licensed under **MIT**.
