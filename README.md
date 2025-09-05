@@ -28,7 +28,25 @@ npm install
 ```bash
 npm start
 ```
-The app will open at https://localhost:3000
-4. **Search for movies or series** 
-  type a title in the search bar and you'll be redirected to a page showing all the details of the movie.
+The app will open at [https://localhost:3000](https://localhost:3000)
 
+## 🚀 Search for movies or series
+Type a title in the search bar and you’ll be redirected to a page showing all the details of the movie.
+
+## 📂 Project Structure
+- `src/components` → Reusable components
+- `src/pages` → React Router pages (Home, MovieData, etc.)
+- `src/assets` → Images and icons
+- `src/services` → API functions for OMDb
+
+## 🌟 Features
+- Search for movies and series by title
+- Display poster, synopsis, release year, and IMDb rating
+- Page navigation using React Router
+
+## 📌 Notes
+- The project consumes the free **OMDb API**. For advanced features, an API key might be required.
+- This project is a great way to practice API consumption, React routing, and responsive styling.
+
+## 📝 License
+This project is licensed under **MIT**.
