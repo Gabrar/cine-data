@@ -10,6 +10,17 @@
     animation: fadeIn 1s ease-in-out forwards;
 }
 
+@media (max-width: 768px) {
+    .home_Container {
+        padding: 1em;
+    }
+
+    .home_Container span {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
 .home_Container span {
     color: #203e54;
 }

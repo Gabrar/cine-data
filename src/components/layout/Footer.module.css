@@ -10,6 +10,17 @@
     list-style-type: none;
 }
 
+@media (max-widht: 768px) {
+    .social_list {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .social_list li {
+        margin: 0;
+    }
+}
+
 .social_list li {
     margin: 0 1em;
 }
