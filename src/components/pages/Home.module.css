@@ -12,6 +12,7 @@
 
 @media (max-width: 768px) {
     .home_Container {
+        width: 90%;
         padding: 1em;
     }
 

@@ -7,8 +7,9 @@ function Search() {
     const [dados, setDados] = useState(null)
 
     const buscarFilme = async () => {
-        
-        const apiKey = process.env.REACT_APP_OMDB_API_KEY
+
+        const apiKey = '6e45b973'
+        // const apiKey = process.env.REACT_APP_OMDB_API_KEY
         const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${filme}`
 
         const resposta = await fetch(url)
@@ -39,8 +40,8 @@ function Search() {
                     <p style={{margin: '1em'}}>
                         <b>Nota IMDb:</b> {dados.imdbRating}
                     </p>
-                    <img style={{margin: '1em'}} src={dados.Poster} alt={dados.Title} />
-                    <span style={{ margin: '1em', position: 'absolute', width: '20em', fontSize: '2em' }}>
+                    <img className={styles.poster} style={{margin: '1em'}} src={dados.Poster} alt={dados.Title} />
+                    <span className={styles.dados} style={{ margin: '1em', position: 'absolute', width: '20em', fontSize: '2em' }}>
                         {dados.Plot}
                     </span>
                 </div>

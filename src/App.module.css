@@ -1,8 +1,16 @@
+
 .App footer {
     position: relative;
     top: 9em;
     animation: fadeIn 1s ease-in-out forwards;
     opacity: 0;
+}
+
+@media (max-width: 768px) {
+    
+    .App footer {
+        top: 20em;
+    }
 }
 
 @keyframes fadeIn {

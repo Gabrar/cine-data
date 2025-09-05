@@ -11,6 +11,12 @@
 }
 
 @media (max-widht: 768px) {
+
+    .footer {
+        margin-top: 10%;
+        padding: 0;
+    }
+
     .social_list {
         flex-direction: column;
         gap: 1em;
@@ -19,6 +25,7 @@
     .social_list li {
         margin: 0;
     }
+    
 }
 
 .social_list li {
