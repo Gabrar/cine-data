@@ -8,7 +8,7 @@ function Search() {
 
     const buscarFilme = async () => {
 
-        const apiKey = "6e45b973"
+        const apiKey = process.env.REACT_APP_OMDB_API_KEY
         const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${filme}`
 
         const resposta = await fetch(url)
