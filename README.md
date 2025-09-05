@@ -47,3 +47,6 @@ Type a title in the search bar and you’ll be redirected to a page showing all 
 ## 📌 Notes
 - The project consumes the free **OMDb API**. For advanced features, an API key might be required.
 - This project is a great way to practice API consumption, React routing, and responsive styling.
+
+## 📝 License
+This project is licensed under **MIT**.
