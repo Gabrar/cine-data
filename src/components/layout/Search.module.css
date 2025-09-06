@@ -63,7 +63,14 @@
     top: 75%;
     left: 40%;
     text-size-adjust: 35%;
-    
-    
   }
+}
+
+@media (max-width: 1000px) {
+    .dados {
+        top: 55%;
+        left: 35%;
+        text-size-adjust: 50%;
+        max-width: 200px;
+    }
 }
